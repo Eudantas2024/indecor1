@@ -417,7 +417,41 @@ li {
     color: white;
 }
 
+
 footer{
+  
+ 
+    background-color: white;
+    color: rgb(158, 155, 155);
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem 1rem 4rem 1rem ;
+
+}
+
+footer h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+footer h3{
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding-bottom: 1rem;
+}
+
+footer p{
+    font-size: 1rem;
+    padding: 0.2rem;
+    
+}
+
+footer .negrito{
+    font-weight: bold;
+}
+
+#creditos{
     display:flex;
     gap: 2rem;
     background-color:black;
@@ -429,7 +463,7 @@ footer{
 
 }
 
-footer h2{
+#creditos h2{
     font-size: 0.6rem;
 }
 
