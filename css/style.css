@@ -57,7 +57,7 @@ i {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 30%
+    flex: 1 1 30%;
     z-index: 1; /* Garante que o conteúdo fique acima da imagem */
     padding: 2rem;
     color: #eff3f4;
@@ -299,40 +299,62 @@ i {
 }
 
 
-/* sessao 4 */
+/* sessao 4 - Promo */
+/* Nesta sessão foi usado display flex, dividindo a sessão em dois lados (esquerdo e direito) */
 #promo{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
+    padding: 1rem 1rem 1rem 1rem;
     /* Centraliza horizontalmente */
     margin-top: 60px;
     
 }
-#promo img{
-    width: 550px;
-}
+
+/* lado esquerdo */
 #promo .lado-esquerdo{
     flex: 1;
     margin-top: 1px;
-    
-    
-}
-#promo .lado-direito{
-    flex: 1;
-    margin-top: 1px;
+    margin-right: 1px;
     
 }
 
-#promo .lado-direito .a{
-    width: 500px  
-      
+#promo .lado-esquerdo img{
+    width: 100%;
+
 }
+
+/* lado direito */
+#promo .lado-direito{
+    flex: 1;
+    margin-top: 1px;
+    margin-left: 1px;
+    
+    
+}
+
+#promo .lado-direito img{
+    width: 100%;
+    
+
+}
+
+
+
 #promo .lado-direito .a h2{
-    font-size: 2.5rem;  
+    font-size: 3rem;  
+    padding-left: 5rem;
+    padding-right: 4rem;
 }
+
+#promo .lado-direito .b{
+    padding-left: 3rem;
+}
+
 #promo .a .b{
     margin-top: 0.1rem;
+    padding-left: 3rem;
 }
 .b h3{
     font-size: 2rem;
@@ -353,7 +375,7 @@ li {
     margin-bottom: 5px; /* Adiciona um pouco de espaço entre os itens */
 }
 
-/* sessão 7 */
+/* sessão 5 */
 
 #contact {
     background-color: black;
