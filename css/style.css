@@ -539,7 +539,12 @@ footer .negrito{
    }
    #aprender{
     max-width: 100%;
-    padding: 4rem 4rem 4rem 6rem;
+    padding: 2rem;
+   }
+   #aprender .foto{
+    width: 100%;
+    padding: 2rem;
+    margin: 2rem;
    }
    #black-box{
     max-width: 100%;
