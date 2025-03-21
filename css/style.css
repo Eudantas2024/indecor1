@@ -557,7 +557,7 @@ footer .negrito{
    #black-box .content{
     flex-direction: column;
     width: 100%;
-    padding-bottom: 2rem;
+    padding: 7rem 2rem 8rem 2rem;
    
    }
    #black-box .local{
